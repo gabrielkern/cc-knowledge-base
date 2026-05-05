@@ -1,0 +1,76 @@
+{
+    "permissions": {
+      "allow": [
+        "Read",
+        "Glob",
+        "Grep",
+        "LSP",
+        "NotebookRead",
+        "WebSearch",
+        "WebFetch",
+        "Edit",
+        "Write",
+        "WriteIfEmpty",
+        "KillShell",
+        "TaskOutput",
+        "Bash(git:*)",
+        "Bash(npm:*)",
+        "Bash(npx:*)",
+        "Bash(bun:*)",
+        "Bash(yarn:*)",
+        "Bash(node:*)",
+        "Bash(expo:*)",
+        "Bash(supabase:*)",
+        "Bash(drizzle-kit:*)",
+        "Bash(tsc:*)",
+        "Bash(eslint:*)",
+        "Bash(prettier:*)",
+        "Bash(vitest:*)",
+        "Bash(jest:*)",
+        "Bash(maestro:*)",
+        "Bash(turbo:*)",
+        "Bash(ls:*)",
+        "Bash(pwd)",
+        "Bash(which:*)",
+        "Bash(env:*)",
+        "Bash(find:*)",
+        "Bash(grep:*)",
+        "Bash(rg:*)",
+        "Bash(head:*)",
+        "Bash(tail:*)",
+        "Bash(cat:*)",
+        "Bash(tree:*)",
+        "Bash(wc:*)",
+        "Bash(echo:*)",
+        "Bash(printf:*)",
+        "Bash(mkdir:*)",
+        "Bash(touch:*)",
+        "Bash(cp:*)",
+        "Bash(mv:*)",
+        "Bash(rm:*)",
+        "Bash(curl:*)",
+        "Bash(jq:*)",
+        "Bash(sed:*)",
+        "Bash(awk:*)",
+        "Bash(open:*)",
+        "Bash(pbcopy:*)",
+        "Bash(chmod:*)"
+      ],
+      "deny": [],
+      "defaultMode": "bypassPermissions"
+    },
+    "skipDangerousModePermissionPrompt": true,
+    "hooks": {
+      "Stop": [
+        {
+          "hooks":[
+            {
+              "type": "command",
+              "command": "afplay /System/Library/Sounds/Hero.aiff"
+            }
+          ]
+        }
+      ]
+    }
+  }
+  
